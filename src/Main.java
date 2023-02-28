@@ -56,8 +56,6 @@ public class Main {
             people = people + growth;
             System.out.println("Год " + i + " численность населения составляет " + people);
         }
-
-
     }
 
     public static void task4() {
@@ -68,7 +66,6 @@ public class Main {
         total = total + deposit;
         while (total < 12_000_000) {
             total = total + total / 100 * 7;
-
             a = a + 1;
             System.out.println("Месяц " + a + " сумма накопления " + total);
 
@@ -87,10 +84,7 @@ public class Main {
             if (a % 6 == 0)
             System.out.println("Месяц " + a + " сумма накопления " + total);
 
-
         }
-
-
     }
 
     public static void task6() {
@@ -101,11 +95,9 @@ public class Main {
         int a = 0;
         while (a < 109) {
         a= a +1;
-
             total = total + total / 100 * 7;
             if (a % 6== 0)
                 System.out.println("Месяц " + a + " сумма накопления " + total);
-
             }
     }
 
@@ -116,11 +108,7 @@ public class Main {
         int Friday = 3;
         int month = 31;
         for (int number = 3; number <32; number = number + 7 ) {
-
-
             System.out.println("Сегодня пятница " + number + ". Необходимо подготовить отчет ");
-
-
         }
     }
     public static void task8() {
@@ -131,11 +119,5 @@ public class Main {
                 System.out.println(comet);
             }
         }
-
-
     }
-
-
-
-
 }
